@@ -107,6 +107,7 @@ nav {
   padding: 2rem;
   min-height: 10vh;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 #logo {
@@ -137,4 +138,15 @@ nav ul {
 
 .hero h3 {
   padding: 5rem;
+}
+
+@media screen and (max-width: 900px) {
+  
+  nav {
+    text-align: center;
+  }
+
+  #logo {
+    padding: 1rem;
+  }
 }
