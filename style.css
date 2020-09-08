@@ -144,12 +144,28 @@ nav ul {
 
 #locations {
   min-height: 100vh;
-  background: url(./images/new-york-page.png);
+  background: linear-gradient(rgba(0, 0, 0, 0.5), transparent), url(./images/new-york-page.png);
   background-repeat: none;
   background-size: cover;
   background-position: center;
+  display: flex;
+  align-items: center;
 }
 
+.locations-header {
+  width: 90%;
+  margin: auto;
+}
+
+.locations-header h2 {
+  padding: 1rem 0rem;
+  border-bottom: 0.5rem solid black;
+  display: inline;
+}
+
+.locations-header h3 {
+  padding: 4rem 0rem;
+}
 /* Benefits Section */
 
 
