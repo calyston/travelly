@@ -192,13 +192,22 @@ nav ul {
 }
 
 .moving-cloud-1 {
-
+  animation: cloudAnimation 3s infinite alternate ease;
 }
 
-moving-cloud-2 {
+.moving-cloud-2 {
   top: 20%;
   z-index: -1;
   opacity: 0.5;
+}
+
+@keyframes cloudAnimation {
+  from {
+    transform: translate(10%, -10%);
+  }
+  to {
+    tranform: translate(0%, 0%);
+  }
 }
 
 /* Benefits Section */
