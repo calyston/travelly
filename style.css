@@ -214,13 +214,30 @@ nav ul {
 /* Benefits Section */
 
 
+@media screen and (max-width: 315px) {
 
+  .locations-header h2 {
+    padding: 1rem 0rem;
+    text-decoration: underline;
+    text-decoration-thickness: 0.5rem;
+    border-bottom: 0;
+  }
+}
 
 @media screen and (max-width: 655px) {
   
   /* Nav & Hero Section */
   nav {
     text-align: center;
+  }
+
+  /* Locations Section */
+  .locations-header h3 {
+    width: 75%;
+  }
+
+  .cloud {
+    max-width: 100%;
   }
 }
 
