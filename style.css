@@ -81,6 +81,11 @@ h4, h5 {
 a {
   color: white;
   text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #DAAD86;
 }
 
 button {
@@ -91,6 +96,11 @@ button {
   border-radius: 1rem;
   padding: 2rem 6rem;
   cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #DAAD86;
 }
 
 /* Nav & Hero */
@@ -177,10 +187,19 @@ nav ul {
   position: absolute;
   top: 0%;
   right: 0%;
-  height: 75%;
-  width: 75%;
+  max-width: 75%;
+  height: auto;
 }
 
+.moving-cloud-1 {
+
+}
+
+moving-cloud-2 {
+  top: 20%;
+  z-index: -1;
+  opacity: 0.5;
+}
 
 /* Benefits Section */
 
