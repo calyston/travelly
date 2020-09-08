@@ -140,14 +140,31 @@ nav ul {
   padding: 5rem;
 }
 
-@media screen and (max-width: 900px) {
-  
-  html {
-    font-size: 45%;
-  }
+/* Locations Section */
 
+#locations {
+  min-height: 100vh;
+  background: url(./images/new-york-page.png);
+}
+
+/* Benefits Section */
+
+
+
+
+@media screen and (max-width: 655px) {
+  
+  /* Nav & Hero Section */
   nav {
     text-align: center;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  
+  /* Nav & Hero Section */
+  html {
+    font-size: 45%;
   }
 
   #logo {
