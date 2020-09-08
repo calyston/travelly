@@ -150,6 +150,7 @@ nav ul {
   background-position: center;
   display: flex;
   align-items: center;
+  position: relative;
 }
 
 .locations-header {
@@ -160,17 +161,27 @@ nav ul {
 .locations-header h2 {
   padding: 1rem 0rem;
   border-bottom: 0.5rem solid black;
-  display: inline;
+  display: initial;
 }
 
 .locations-header h3 {
   width: 50%;
   padding: 4rem 0rem;
-  margin-top: 6rem;
+  margin-top: 5rem;
   background: linear-gradient(black, #8D8741);
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+.cloud {
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  height: 75%;
+  width: 75%;
+}
+
+
 /* Benefits Section */
 
 
