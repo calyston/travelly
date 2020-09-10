@@ -243,9 +243,8 @@ nav ul {
 }
 
 .cards img {
-  height: 100px;
-  background: #659DBD;
-  width: 100%;
+  max-width: 15%;
+  margin: 2rem;
 }
 
 .card {
@@ -253,6 +252,15 @@ nav ul {
   min-height: 40vh;
   margin: 2rem 5rem;
   box-shadow: 0 10px 10px lightgrey, 0 20px 20px lightgrey;
+  text-align: center;
+}
+
+.card h4, p {
+  padding: 1rem;
+}
+
+.card-icon {
+  background: #659DBD;
 }
 
 
