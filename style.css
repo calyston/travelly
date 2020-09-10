@@ -283,14 +283,14 @@ nav ul {
 .form-wrapper {
   background: #20333D;
   opacity: 0.8;
-  width: 60%;
+  width: 50%;
   color: white;
   border-radius: 2rem;
 }
 
 .form-header {
   text-align: center;
-  padding: 4rem;
+  padding: 2rem;
 }
 
 .name-form, .email-form, .message-form {
@@ -301,6 +301,24 @@ nav ul {
 .message-form {
   display: flex;
   justify-content: center;
+  align-items: flex-start;
+}
+
+.form-wrapper label {
+  margin: 0rem 3rem;
+}
+
+.form-wrapper button {
+  border-radius: 0rem;
+  border-bottom-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  width: 100%;
+  padding: 2rem;
+  margin-top: 2rem;
+}
+
+.form-wrapper input, textarea {
+  padding: 1rem 3rem;
 }
 
 
