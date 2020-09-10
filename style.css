@@ -214,13 +214,18 @@ nav ul {
 /* Benefits Section */
 
 
-@media screen and (max-width: 315px) {
+@media screen and (max-width: 360px) {
 
+  /* Locations Section */
   .locations-header h2 {
     padding: 1rem 0rem;
     text-decoration: underline;
     text-decoration-thickness: 0.5rem;
     border-bottom: 0;
+  }
+
+  .moving-cloud-2 {
+    top: 5%;
   }
 }
 
