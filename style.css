@@ -211,7 +211,27 @@ nav ul {
   }
 }
 
+
 /* Benefits Section */
+
+.benefits-header {
+  background: #659DBD;
+  padding: 3rem;
+  min-height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+.benefits-header h2 {
+  padding-top: 3rem;
+}
+.benefits-header p {
+  padding: 3rem;
+}
 
 
 @media screen and (max-width: 360px) {
