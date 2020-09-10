@@ -247,6 +247,14 @@ nav ul {
   margin: 2rem;
 }
 
+.cards a {
+  color: black;
+}
+
+.cards a:hover {
+  color: #DAAD86;
+}
+
 .card {
   flex: 1 1 25rem;
   min-height: 40vh;
