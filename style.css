@@ -280,6 +280,30 @@ nav ul {
   align-items: center;
 }
 
+.form-wrapper {
+  background: #20333D;
+  opacity: 0.8;
+  width: 60%;
+  color: white;
+  border-radius: 2rem;
+}
+
+.form-header {
+  text-align: center;
+  padding: 4rem;
+}
+
+.name-form, .email-form, .message-form {
+  text-align: center;
+  padding: 2rem;
+}
+
+.message-form {
+  display: flex;
+  justify-content: center;
+}
+
+
 @media screen and (max-width: 360px) {
 
   /* Locations Section */
