@@ -266,6 +266,7 @@ nav ul {
 
 .card-icon {
   background: #659DBD;
+  height: 8rem;
 }
 
 /* Contact Section */
@@ -338,6 +339,20 @@ nav ul {
   .moving-cloud-2 {
     top: 5%;
   }
+
+  /* Contact Section */
+
+  .form-wrapper {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  
+  /* Contact Section */
+  .message-form {
+    display: block;
+  }
 }
 
 @media screen and (max-width: 655px) {
@@ -355,9 +370,25 @@ nav ul {
   .cloud {
     max-width: 100%;
   }
+
+  /* Contact Section */
+
+  .form-wrapper {
+    width: 70%;
+  }
+  
+  .message-form textarea {
+    margin-top: 1rem;
+    width: 60%;
+  }
+
+  .form-wrapper input {
+    margin-top: 1rem;
+    width: 60%;
+  }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 950px) {
   
   /* Nav & Hero Section */
   html {
@@ -366,5 +397,12 @@ nav ul {
 
   #logo {
     padding: 1rem;
+  }
+
+  /* Contact Section */
+
+  .message-form textarea {
+    margin-top: 1rem;
+    width: 50%;
   }
 }
