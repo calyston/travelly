@@ -268,7 +268,17 @@ nav ul {
   background: #659DBD;
 }
 
+/* Contact Section */
 
+#contact {
+  min-height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), transparent), url(./images/contact-mountain.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 @media screen and (max-width: 360px) {
 
