@@ -421,6 +421,20 @@ footer {
     margin-top: 1rem;
     width: 60%;
   }
+
+  /* Footer */
+  footer {
+    text-align: center;
+  }
+
+  .footer-wrapper h5 {
+    padding-bottom: 2rem;
+    display: block;
+  }
+
+  .footer-wrapper ul {
+    justify-content: center;
+  }
 }
 
 @media screen and (max-width: 950px) {
