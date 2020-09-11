@@ -325,6 +325,11 @@ nav ul {
 
 /* Footer */
 
+footer {
+  color: white;
+  background: #659DBD;
+}
+
 
 @media screen and (max-width: 360px) {
 
