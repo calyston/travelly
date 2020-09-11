@@ -2,7 +2,7 @@
 
 Travelly is a responsive mock travel agency web page. The web design is from The Creative Javascript Course by [Developed By Ed](https://developedbyed.com/p/the-creative-javascript-course), with my own adaptations.
 
-
+![](TravellyDesktopGif350.gif)
 
 ## Technologies Used
 
