@@ -6,7 +6,7 @@ Travelly is a responsive mock travel agency web page. The web design is from The
 
 ## Technologies Used
 
-HTML, CSS, JavaScript, GIT, Bash.
+HTML, CSS, GIT, Bash.
 
 ## Personal Learnings
 

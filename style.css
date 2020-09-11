@@ -331,6 +331,35 @@ footer {
   background: #659DBD;
 }
 
+.footer-wrapper {
+  width: 90%;
+  margin: auto;
+  min-height: 10vh;  
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+  flex-wrap: wrap;
+}
+
+.footer-wrapper ul {
+  display: flex;
+  flex: 1 1 40rem;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.footer-wrapper li {
+  margin: 0 2rem;
+}
+
+.footer-wrapper h5 {
+  display: flex;
+  flex: 1 1 40rem;
+}
+
+.footer-wrapper span {
+  font-family: 'Pattaya', sans-serif;
+}
 
 @media screen and (max-width: 360px) {
 
