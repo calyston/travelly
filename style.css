@@ -109,6 +109,9 @@ button:hover {
 .main-header {
   background: #659DBD;
   color: white;
+  position: sticky;  
+  top: 0px;
+  z-index: 3;
 }
 
 nav {
