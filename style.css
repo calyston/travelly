@@ -90,7 +90,7 @@ a:hover {
 }
 
 button {
-  background: #8D8741;
+  background: #736E35;
   color: white;
   font-size: 1.8rem;
   border: none;
@@ -107,7 +107,7 @@ button:hover {
 /* Nav & Hero */
 
 .main-header {
-  background: #659DBD;
+  background: #49728A;
   color: white;
   position: sticky;  
   top: 0px;
@@ -183,7 +183,7 @@ nav ul {
   width: 50%;
   padding: 4rem 0rem;
   margin-top: 5rem;
-  background: linear-gradient(black, #8D8741);
+  background: linear-gradient(black, #736E35);
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -219,7 +219,7 @@ nav ul {
 /* Benefits Section */
 
 .benefits-header {
-  background: #659DBD;
+  background: #49728A;
   padding: 3rem;
   min-height: 30vh;
   display: flex;
@@ -269,7 +269,7 @@ nav ul {
 }
 
 .card-icon {
-  background: #659DBD;
+  background: #49728A;
   height: 8rem;
 }
 
@@ -331,7 +331,7 @@ nav ul {
 
 footer {
   color: white;
-  background: #659DBD;
+  background: #49728A;
 }
 
 .footer-wrapper {
